@@ -1,0 +1,55 @@
+.buttonContainer {
+
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.gateButton {
+
+  background-color: black;
+  color: white;
+  font: monospace;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.45em;
+  padding-bottom: 0.55em;
+  height: 1em;
+  width: 2em;
+  font-family: 'Roboto Mono', monospace;
+  display: inline-block;
+  margin: 0.5em;
+  cursor: pointer;
+
+}
+
+.gateButton.h  { background-color: #F5A623; color: white; }
+.gateButton.x  { background-color: #4A90E2; color: white; }
+.gateButton.y { background-color: #ff4757; color: white; }
+.gateButton.z { background-color: #44bd32; color: white; }
+.gateButton.rx  { background-color: #48dbfb; color: white; }
+.gateButton.ry { background-color: #ff6b6b; color: white; }
+.gateButton.rz { background-color: #2ecc71; color: white; }
+.gateButton.t { background-color: #f1c40f; color: white; }
+.gateButton.tdg { background-color: #e67e22; color: white; }
+.gateButton.s { background-color: #1dd1a1; color: white; }
+.gateButton.sdg { background-color: #16a085; color: white; }
+.gateButton.cx { background-color: #D0021B; color: white; }
+.gateButton.u { background-color: #6c5ce7; color: white; }
+.gateButton.swap { background-color: #00cec9; color: white; }
+.gateButton.cz { background-color: #706fd3; color: white; }
+.gateButton.crk { background-color: #ff5252; color: white; }
+.gateButton.ccx { background-color: #fd79a8; color: white; }
+
+.gateButton.selected { color: black; background-color: white; }
+.gateButton.h.selected  { color: #F5A623; background-color: white; }
+.gateButton.x.selected  { color: #4A90E2; background-color: white; }
+.gateButton.y.selected { color: #D0021B; background-color: white; }
+.gateButton.z.selected { color: #2ecc71; background-color: white; }
+.gateButton.rx.selected  { color: #48dbfb; background-color: white; }
+.gateButton.ry.selected { color: #ff6b6b; background-color: white; }
+.gateButton.rz.selected { color: #44bd32; background-color: white; }
+.gateButton.t.selected { color: #f1c40f; background-color: white; }
+.gateButton.tdg.selected { color: #e67e22; background-color: white; }
+.gateButton.s.selected { color: #1dd1a1; background-color: white; }
+.gateButton.sdg.selected { color: #16a085; background-color: white; }

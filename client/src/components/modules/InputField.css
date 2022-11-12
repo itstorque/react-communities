@@ -1,0 +1,67 @@
+.InputField input {
+	 display: block;
+	 width: 100%;
+	 padding: 8px 16px;
+	 line-height: 25px;
+	 font-size: 14px;
+	 font-weight: 500;
+	 font-family: inherit;
+	 border-radius: 6px;
+	 -webkit-appearance: none;
+	 color: #ccc;
+	 border: 1px solid #000;
+	 background: var(--darkgrey);
+	 transition: border 0.3s ease;
+}
+.InputField input::placeholder {
+	 color: #666;
+}
+.InputField input:focus {
+	 outline: none;
+	 border-color: #28a745;
+}
+.InputField {
+	 position: relative;
+	 display: flex;
+	 width: 100%;
+   margin-bottom: 1em;
+}
+.InputField > label, .InputField input {
+	 white-space: nowrap;
+	 display: block;
+}
+.InputField > label:not(:first-child):not(:last-child), .InputField input:not(:first-child):not(:last-child) {
+	 border-radius: 0;
+}
+.InputField > label:first-child, .InputField input:first-child {
+	 border-radius: 6px 0 0 6px;
+}
+.InputField > label:last-child, .InputField input:last-child {
+	 border-radius: 0 6px 6px 0;
+}
+.InputField > label:not(:first-child), .InputField input:not(:first-child) {
+	 margin-left: -1px;
+}
+.InputField input {
+	 position: relative;
+	 z-index: 1;
+	 flex: 1 1 auto;
+	 width: 1%;
+	 margin-top: 0;
+	 margin-bottom: 0;
+}
+.InputField > label {
+	 text-align: center;
+	 padding: 8px 12px;
+	 font-size: 14px;
+	 line-height: 25px;
+	 color: #99a3ba;
+	 background: #111;
+	 border: 1px solid #000;
+	 transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.InputField:focus-within > label {
+	 color: white;
+	 background: var(--darkgrey);
+	 border-color: #28a745;
+}

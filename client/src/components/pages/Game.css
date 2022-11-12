@@ -1,0 +1,53 @@
+/* Fill me in :) */
+
+canvas {
+
+  height: 90vh;
+  margin-top: 5vh;
+
+}
+
+canvas.horizontal {
+
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50vw;
+  max-height: 90vh;
+
+}
+
+.gameContainer {
+  display: flex;
+  overflow-y: hidden;
+  margin-top: -3em;
+  max-height: 100vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .gameContainer {
+    display: block;
+    width: 100%;
+    overflow-y: visible;
+  }
+  canvas {
+    width: 100vw;
+    height: 150vw;
+    margin-top: 0px;
+    margin-bottom: -10vh;
+  }
+  .gameContainer .first-half + div {
+    font-size: 0.5em;
+  }
+  .gameContainer .first-half + div .loadingSpinner {
+    height: 4em;
+    width: 4em;
+    margin-top: -2em;
+    margin-bottom: 0px;
+  }
+}

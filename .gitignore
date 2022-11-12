@@ -1,0 +1,7 @@
+client/dist/bundle.js
+node_modules/
+.env
+.DS_Store
+
+server/server.js
+server/auth.js

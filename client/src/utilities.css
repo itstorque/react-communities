@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400&display=swap");
+
+:root {
+  --primary: #658DFF;
+  --alt-primary: #3F6EF6;
+  --darkgrey: #161616;
+  --medgrey: #262626;
+  --grey: #bbb;
+  --white: #fff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: var(--medgrey);
+  color: white;
+}
+
+form {
+  flex-grow: 1;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-flex-justifyCenter {
+  justify-content: center;
+}
+
+.u-flex-alignCenter {
+  align-items: center;
+}
+
+.u-inlineBlock {
+  display: inline-block;
+}
+
+.u-bold {
+  font-weight: 600;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+.u-relative {
+  position: relative;
+}
+
+.u-pointer {
+  cursor: pointer;
+}
+
+.u-link {
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.u-link:hover {
+  color: var(--primary--dim);
+}
+
+.App-container {
+  margin-top: 0;
+  padding-top: 3em;
+  position: absolute;
+  right: 0px;
+  left: 332px;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+  .App-container {
+    margin-top: 3.8em;
+    padding-top: 3em;
+    position: relative;
+    right: 0px;
+    left: 0px;
+    overflow-x: hidden;
+  }
+}
